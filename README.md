@@ -1,6 +1,6 @@
 # jukebox-control-system
-I built a jukebox that could play music from a phone, or directly from music stored on the Raspberry Pi controlling the jukebox. An Arduino was also used; may be added to Git later on.
-This repository includes code from the project done on the Raspberry Pi.
+Built a jukebox that could, using a Raspberry Pi, play music from a phone or directly from music stored on the RPi memory chip. An Arduino was used to create light patterns on the jukebox.
+This repository includes code from the project done on the Raspberry Pi and Arduino.
 
 Full project description:
 
