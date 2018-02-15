@@ -9,7 +9,9 @@ I worked as the project lead in a small team of 4 (including me) people to desig
 On the CS side, we worked with an Arduino (C++) to control the lights physically on the Jukebox, and we worked with a Raspberry Pi (Python) to control the music storage/feed/playback. On the Arduino we imported/worked with the FastLED library compatible with the set of LED lights we bought in order to program light patterns. On the Raspberry Pi, we implemented a few key functionalities:
 
 (1) Users could directly upload music onto the Jukebox and play music without any phone or wireless connection. Music was uploaded directly into a specified folder on the microSD card used by the RPi, and the Jukebox could shuffle and draw music files from this folder to play (using the built-in OMXPlayer on the microcontroller).
+
 (2) Users could connect their phone to the Jukebox through bluetooth, which we implemented using the BlueZ library.
+
 (3) Users could connect their phone using AUX. More on this in the EE section:
 
 On the EE side, we connected the Raspberry Pi GPIO pins into a breadboard that also connected to the buttons on the outside of the Jukebox. Each button would close a circuit, sending a signal to a corresponding GPIO pin, after which would be processed by our RPi software to either play/pause/skip/change volume.
