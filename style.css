@@ -42,6 +42,8 @@ footer {
   text-align: right;
   padding-top: 0;
   height: auto;
-  width: 100%;
+  width: 80%;
   bottom: 0;
+  right: 10%;
+  left: 10%;
 }
