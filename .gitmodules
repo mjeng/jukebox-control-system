@@ -1,0 +1,3 @@
+[submodule "ghpage"]
+	path = ghpage
+	url = https://github.com/mjeng/jukebox-ghpage.git
