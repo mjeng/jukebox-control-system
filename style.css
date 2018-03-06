@@ -34,7 +34,7 @@ header {
 #layer2 {
   height: 50px;
   width: 100%;
-  background-color: maroon;
+  background-color: #8B0000;
 }
 nav {
   margin: 0 auto;
@@ -53,7 +53,7 @@ nav {
   float: left;
 }
 #navbar li:hover {
-  background-color: #12352d;
+  background-color: #660000;
 }
 /* mainpage ******************************/
 div#spacing {
@@ -85,7 +85,7 @@ img {
 }
 footer {
   position: fixed;
-  background-color: beige;
+  background-color: #EDEAB5;
   clear: both;
   text-align: right;
   padding-top: 0;
