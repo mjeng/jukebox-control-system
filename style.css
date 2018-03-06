@@ -21,7 +21,11 @@ html, body, #outer {
 }
 /* header ********************************/
 #layer1 {
-  height: 40px;
+  height: 70px; /* check dependencies if you change */
+}
+#logo {
+  height: 70px; /* should always be the same as height of layer1 */
+  width: auto;
 }
 header {
   position: relative;
@@ -46,11 +50,13 @@ nav {
   margin: 0 0;
 }
 #navbar li {
-  display: block;
+  display: inline-block;
   width: 200px;
-  height: 50px; /* should always be same as #layer2 height */
+  height: 50px; /* check that it matches #layer2 height */
   list-style-type: none;
   float: left;
+  text-align: center;
+  line-height: 50px; /* check that it matches #layer2 height */
 }
 #navbar li:hover {
   background-color: #660000;
@@ -62,7 +68,7 @@ div#spacing {
   overflow: scroll;
 }
 /* content *******************************/
-img {
+#layer3 img {
   position: relative;
   float: left;
   left: 0;
