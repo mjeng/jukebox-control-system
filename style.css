@@ -72,7 +72,7 @@ img {
 #img1, #img2, #img3 {
   display: inline-block;
   position: relative;
-  width: 30%;
+  width: 50%;
 }
 #img1 {
   float: left;
