@@ -2,6 +2,7 @@ html, body, #outer {
   height: 100%;
   width: 100%;
   margin: 0;
+  background-color: #404040;
 }
 #table {
   display: table;
@@ -41,7 +42,7 @@ nav {
 }
 #navbar li {
   display: inline-block;
-  width: 200px;
+  width: 20%;
   height: 50px; /* check that it matches #layer2 height */
   list-style-type: none;
   float: left;
@@ -75,7 +76,7 @@ div#spacing {
 #img1, #img2, #img3 {
   display: inline-block;
   position: relative;
-  width: 50%;
+  width: 30%;
 }
 #img1 {
   float: left;
@@ -86,8 +87,18 @@ div#spacing {
 #img3 {
   float: left;
 }
+#layer3 p {
+  display: inline-block;
+  float: left;
+  width: 65%;
+  margin: 5 5;
+  color: ;
+  /* text-shadow: 1px 1px #1a1a1a; */
+  font-family: "Garamond";
+}
 footer {
   position: fixed;
+
   background-color: #EDEAB5;
   clear: both;
   text-align: right;
@@ -97,4 +108,6 @@ footer {
   bottom: 0;
   padding-right: 10%;
   padding-left: 10%;
+  padding-bottom: 0;
+
 }
