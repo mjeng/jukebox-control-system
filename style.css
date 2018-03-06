@@ -92,6 +92,6 @@ footer {
   height: auto;
   width: 80%;
   bottom: 0;
-  right: 10%;
-  left: 10%;
+  padding-right: 10%;
+  padding-left: 10%;
 }
