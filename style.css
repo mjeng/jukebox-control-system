@@ -24,6 +24,7 @@ html, body, #outer {
   height: 40px;
 }
 header {
+  position: relative;
   display: block;
   margin-left: 10%;
   margin-right: 10%;
@@ -32,18 +33,27 @@ header {
 /* navbar ********************************/
 #layer2 {
   height: 50px;
-}
-nav {
-  /* display: table-row; */
-  position: relative;
-  display: block;
   width: 100%;
-  height: 100%;
   background-color: maroon;
 }
-.navbar li {
+nav {
+  margin: 0 auto;
+  width: 80%;
+  height: 100%;
+}
+#navbar {
+  padding-left: 0; /* not sure why there was 40px left padding */
+  margin: 0 0;
+}
+#navbar li {
   display: block;
+  width: 200px;
+  height: 50px; /* should always be same as #layer2 height */
   list-style-type: none;
+  float: left;
+}
+#navbar li:hover {
+  background-color: #12352d;
 }
 /* mainpage ******************************/
 div#spacing {
