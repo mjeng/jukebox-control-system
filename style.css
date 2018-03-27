@@ -2,7 +2,8 @@ html, body, #outer {
   height: 100%;
   width: 100%;
   margin: 0;
-  background-color: #404040;
+  /* background-color: #404040; */
+  background-color: beige;
 }
 #table {
   display: table;
@@ -17,6 +18,11 @@ html, body, #outer {
 #logo {
   height: 70px; /* should always be the same as height of layer1 */
   width: auto;
+}
+#layer1 strong {
+  margin-left: 25px;
+
+  font-size: 30;
 }
 header {
   position: relative;
@@ -42,7 +48,7 @@ nav {
 }
 #navbar li {
   display: inline-block;
-  width: 20%;
+  width: 25%;
   height: 50px; /* check that it matches #layer2 height */
   list-style-type: none;
   float: left;
